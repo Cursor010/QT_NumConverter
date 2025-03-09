@@ -67,8 +67,8 @@ QString Converter::convert(QString str, BigInteger fromBase, BigInteger toBase) 
         str.remove(0, 1);
         dis = true;
     }
-    if (!isValidString(str))
-        return "0";
+    //if (!isValidString(str))
+      //  return "0";
     QMap<QChar, QString> letterToNumber;
     for (char c = 'A'; c <= 'Z'; ++c) {
         letterToNumber[c] = QString("[%1]").arg(10 + (c - 'A'));
