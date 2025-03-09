@@ -16,7 +16,7 @@ The project is an application designed to convert long integers and fractional n
 + Buttons for controlling the application.
 
 ## Screenshots:
-+ Soon...
+<div align="center"><img src="https://github.com/Cursor010/QT_NumConverter/blob/main/img/Main.png" alt="Gameplay" /></div>
 
 ## Features:
 + Supports conversion between any numeral systems;
